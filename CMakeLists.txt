@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.6)
+project(sertifika)
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
+add_executable(sertifika main.cpp certcreator.cpp subjectdn.cpp certkey.cpp certextension.cpp)
+set(LIBRARIES "-L//usr/lib/x86_64-linux-gnu/ -lcrypto")
+target_link_libraries(sertifika ${LIBRARIES})
+install(TARGETS sertifika RUNTIME DESTINATION bin)

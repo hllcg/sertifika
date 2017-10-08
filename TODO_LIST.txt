@@ -1,0 +1,10 @@
+//TODO LISTESI
+1-) sertifika extensionları eklensin.
+2-) sertifika certkey doldurulsun.
+3-) certcreator duzenlensin.
+4-) her sinif icin ostream friend i  yazilsin
+5-) exception class yazilsin
+6-) refactoring
+7-) gui yazilsin
+8-) git hub commit edilsin sadece gui 
+9-) 
